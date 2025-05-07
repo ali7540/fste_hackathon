@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import LoopCld from "../public/loopcld.jpeg"
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="https://images.theconversation.com/files/575521/original/file-20240214-26-f775n6.jpg?ixlib=rb-4.1.0&rect=0%2C13%2C4479%2C2977&q=45&auto=format&w=1000&fit=clip"
                 alt="Mental Health Awareness"
                 fill
                 className="object-cover"
@@ -150,7 +151,7 @@ export default function Home() {
             </Card>
             <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://ananda.ai/wp-content/uploads/2022/08/Mental-Health-Effects-of-Screen-Time-1.jpg"
                 alt="Event Pattern Structure"
                 fill
                 className="object-cover"
@@ -170,7 +171,7 @@ export default function Home() {
             <CardContent>
               <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden border border-gray-200">
                 <Image
-                  src="/placeholder.svg?height=500&width=800"
+                  src={LoopCld}
                   alt="Causal Loop Diagram"
                   fill
                   className="object-contain"
