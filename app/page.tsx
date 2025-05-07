@@ -1,8 +1,8 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import LoopCld from "../public/loopcld.jpeg"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import LoopCld from "../public/loopcld.jpeg";
 
 export default function Home() {
   return (
@@ -16,13 +16,17 @@ export default function Home() {
                 Mental Health Among Urban Students
               </h1>
               <p className="text-xl text-gray-600 max-w-lg">
-                Understanding the rise of anxiety and depression despite increased awareness and services
+                Understanding the rise of anxiety and depression despite
+                increased awareness and services
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button className="bg-teal-500 hover:bg-teal-600">
                   <Link href="/screen-time">Explore Data</Link>
                 </Button>
-                <Button variant="outline" className="border-teal-500 text-teal-500 hover:bg-teal-50">
+                <Button
+                  variant="outline"
+                  className="border-teal-500 text-teal-500 hover:bg-teal-50"
+                >
                   <Link href="/blog">Read Articles</Link>
                 </Button>
               </div>
@@ -44,13 +48,16 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <Card className="shadow-md border-0">
             <CardHeader>
-              <CardTitle className="text-2xl md:text-3xl text-gray-800">Problem Overview</CardTitle>
+              <CardTitle className="text-2xl md:text-3xl text-gray-800">
+                Problem Overview
+              </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-gray-600">
-                Mental health issues like anxiety and depression are increasing among urban students due to academic
-                pressure, social media use, family expectations, and poor sleep. This site explores causes, trends, and
-                leverage points for change.
+                Mental health issues like anxiety and depression are increasing
+                among urban students due to academic pressure, social media use,
+                family expectations, and poor sleep. This site explores causes,
+                trends, and leverage points for change.
               </p>
               <div className="flex items-center gap-2">
                 <svg
@@ -65,7 +72,10 @@ export default function Home() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <Link href="/mental-health-report.pdf" className="text-sky-400 hover:text-sky-500 font-medium">
+                <Link
+                  href="/Group8_SystemsHackathon2025.pdf"
+                  className="text-sky-400 hover:text-sky-500 font-medium"
+                >
                   Download Full Report (PDF)
                 </Link>
               </div>
@@ -80,7 +90,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <Card className="shadow-md border-0">
               <CardHeader>
-                <CardTitle className="text-2xl md:text-3xl text-gray-800">Event → Pattern → Structure</CardTitle>
+                <CardTitle className="text-2xl md:text-3xl text-gray-800">
+                  Event → Pattern → Structure
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-4">
@@ -101,7 +113,9 @@ export default function Home() {
                     </div>
                     <div>
                       <span className="font-bold text-gray-800">Event:</span>
-                      <p className="text-gray-600">Increase in anxiety, depression, suicide cases</p>
+                      <p className="text-gray-600">
+                        Increase in anxiety, depression, suicide cases
+                      </p>
                     </div>
                   </li>
                   <li className="flex items-start gap-2">
@@ -121,7 +135,9 @@ export default function Home() {
                     </div>
                     <div>
                       <span className="font-bold text-gray-800">Pattern:</span>
-                      <p className="text-gray-600">Annual rise in reported mental health issues</p>
+                      <p className="text-gray-600">
+                        Annual rise in reported mental health issues
+                      </p>
                     </div>
                   </li>
                   <li className="flex items-start gap-2">
@@ -140,9 +156,12 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <span className="font-bold text-gray-800">Structure:</span>
+                      <span className="font-bold text-gray-800">
+                        Structure:
+                      </span>
                       <p className="text-gray-600">
-                        High-pressure academics, social media use, lack of counseling in schools
+                        High-pressure academics, social media use, lack of
+                        counseling in schools
                       </p>
                     </div>
                   </li>
@@ -166,7 +185,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <Card className="shadow-md border-0">
             <CardHeader>
-              <CardTitle className="text-2xl md:text-3xl text-gray-800 text-center">Causal Loop Diagram</CardTitle>
+              <CardTitle className="text-2xl md:text-3xl text-gray-800 text-center">
+                Causal Loop Diagram
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden border border-gray-200">
@@ -177,7 +198,9 @@ export default function Home() {
                   className="object-contain"
                 />
               </div>
-              <p className="text-center text-gray-600 mt-4">Systemic relationships influencing student mental health</p>
+              <p className="text-center text-gray-600 mt-4">
+                Systemic relationships influencing student mental health
+              </p>
             </CardContent>
           </Card>
         </div>
@@ -186,9 +209,12 @@ export default function Home() {
       {/* Call to Action Section */}
       <section className="py-16 bg-gradient-to-r from-teal-500 to-teal-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Explore More Insights</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Explore More Insights
+          </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Discover data visualizations, leverage points, and expert articles on student mental health
+            Discover data visualizations, leverage points, and expert articles
+            on student mental health
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button className="bg-white text-teal-600 hover:bg-gray-100">
@@ -205,10 +231,13 @@ export default function Home() {
       <footer className="py-8 bg-gray-800 text-gray-300">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <p>© 2025 Group8 – Systems Thinking Hackathon | Built for Web Output Submission</p>
+            <p>
+              © 2025 Group8 – Systems Thinking Hackathon | Built for Web Output
+              Submission
+            </p>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
